@@ -110,13 +110,14 @@ public class Main {
 
         StudentManagementSystem SMS = new StudentManagementSystem();
         //       SMS.Add_student();
-        int x=1;
+        int counter=1;
         // make it a true statement to keep running while loop
-        while (x<10) {
+        while (counter<10) {
             Scanner sc = new Scanner(System.in);
             int choice;
 
             System.out.println("===== MENU =====");
+            System.out.println("Please select from below options");
             System.out.println("1. Add Student");
             System.out.println("2. Show Student");
             System.out.println("3. Exit");
